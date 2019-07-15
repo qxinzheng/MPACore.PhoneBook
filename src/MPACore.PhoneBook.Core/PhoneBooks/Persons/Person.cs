@@ -16,18 +16,18 @@ namespace MPACore.PhoneBook.PhoneBooks.Persons
         /// 姓名
         /// </summary>
         [Required]
-        [MaxLength(50)]
+        [MaxLength(PhoneBookConsts.MaxNameLength)]
         public string Name { set; get; }
         /// <summary>
         /// 邮箱地址
         /// </summary>
         [EmailAddress]
-        [MaxLength(80)]
+        [MaxLength(PhoneBookConsts.MaxEmailAddressLength)]
         public string EmailAddress { set; get; }
         /// <summary>
         /// 地址信息
         /// </summary>
-        [MaxLength(200)]
+        [MaxLength(PhoneBookConsts.MaxAdressLength)]
         public string Address { set; get; }
     }
 }
