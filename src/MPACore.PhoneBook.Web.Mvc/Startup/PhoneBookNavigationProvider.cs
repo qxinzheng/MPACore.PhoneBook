@@ -49,7 +49,7 @@ namespace MPACore.PhoneBook.Web.Startup
                     new MenuItemDefinition(
                         PageNames.Persons,
                         L("Persons"),
-                        url: "Persons",
+                        url: "Persons?skipCount=0&maxResultCount=10",
                         icon: "local_offer"
                     )
                 ).AddItem(
