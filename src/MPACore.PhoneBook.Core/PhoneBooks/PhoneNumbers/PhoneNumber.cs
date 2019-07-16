@@ -19,7 +19,7 @@ namespace MPACore.PhoneBook.PhoneBooks.PhoneNumbers
         /// <summary>
         /// 类型
         /// </summary>
-        public PhoneType Type { get; set; }
+        public PhoneNumberType Type { get; set; }
         public int PersonId { get; set; }
         public Person Person { get; set; }
         public DateTime CreationTime { get; set; }

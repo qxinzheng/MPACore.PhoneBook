@@ -7,7 +7,7 @@ namespace MPACore.PhoneBook.PhoneBooks.PhoneNumbers
     /// <summary>
     /// 电话号码类型
     /// </summary>
-    public enum PhoneType
+    public enum PhoneNumberType
     {
         /// <summary>
         /// 移动电话
