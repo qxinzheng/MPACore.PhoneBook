@@ -1,15 +1,16 @@
 ﻿using Abp.AutoMapper;
 using MPACore.PhoneBook.PhoneBooks.Dto;
 using MPACore.PhoneBook.PhoneBooks.Persons;
-using Phn = MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using PhoneNumberClass = MPACore.PhoneBook.PhoneBooks.PhoneNumbers.PhoneNumber;
 
 namespace MPACore.PhoneBook.PhoneBooks.PhoneNumber.Dto
 {
-    [AutoMapTo(typeof(Phn.PhoneNumber))]
+    [AutoMapTo(typeof(PhoneNumberClass))]
     public class PhoneNumberEditDto
     {
         /// <summary>
@@ -21,6 +22,6 @@ namespace MPACore.PhoneBook.PhoneBooks.PhoneNumber.Dto
         /// <summary>
         /// 类型
         /// </summary>
-        public Phn.PhoneNumberType Type { get; set; }
+        public PhoneNumberType Type { get; set; }
     }
 }
