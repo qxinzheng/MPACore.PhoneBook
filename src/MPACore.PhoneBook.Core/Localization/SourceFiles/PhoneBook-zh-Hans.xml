@@ -98,6 +98,7 @@
     <text name="EditTenant">编辑租户</text>
 
     <text name="Persons">联系人</text>
+    <text name="Address">地址</text>
   </texts>
 </localizationDictionary>
 
